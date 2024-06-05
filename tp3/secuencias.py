@@ -22,6 +22,6 @@ salto = ingresar_dato("ingresae el salto: ")
 secuencia = range(valor_inicial, valor_final, salto)
 mostrar_secuencia(secuencia)
 archivo = open("secuencia.txt", "w")
-for
-archivo.write(secuencia)
+for valor in secuencia:
+    archivo.write(secuencia)
 archivo.close()
